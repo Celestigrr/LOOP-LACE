@@ -80,6 +80,7 @@ svg:hover{
 .shop-button{
     margin-top: 10px;
     padding: 10px;
+    border: none;
     border-radius: 15px;
     background-color: #333333;
     color: white;
@@ -135,12 +136,14 @@ svg:hover{
 
 .explore-more{
     display: block;
-    margin: 15px auto;
+    margin: 25px auto;
     padding: 10px;
+    border: none;
+    text-align: center;
     border-radius: 15px;
     font-family: "Cormorant Gomorand", serif;
     font-size: 16px;
     font-weight: bold;
     color: white;
-    background-color:#8f790b;
+    background-color:#d9bb26;
 }
