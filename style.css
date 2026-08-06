@@ -87,6 +87,21 @@ svg:hover{
     font-size: 14px;
 }
 
+.deals{
+    margin: 10px;
+    font-size: 22px;
+}
+
+.deals-info{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(234, 25, 14, 0.708);
+}
+
+
+
 .products{
     display: flex;
     justify-content: center;
