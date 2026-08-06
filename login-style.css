@@ -15,19 +15,18 @@ html{
 
 body{
     min-height: 100px;
-    background-image: url(images/pink-background.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: right;
     overflow: hidden;
 }
 
 .wrapper{
     box-sizing: border-box;
-    background-color: white;
+    background-image: url(images/pink-background.jpg);
     height: 100vh;
-    /* width: 600px; */
+    min-width: min(600px, 100%);
     padding: 10px;
-    border-radius: 0 20px 20px 0; 
+    border-radius: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,4 +83,37 @@ form input{
 
 form input:hover{
     border-color:rgb(215, 118, 134);
+}
+
+form input:focus{
+    outline: none;
+    border-color: rgb(215, 118, 134);
+}
+
+
+.sign-up{
+    padding: 13px;
+    margin-top: 10px;
+    background-color: rgb(215, 118, 134);
+    color: whitesmoke;
+    border: none;
+    border-radius: 1000px;
+    font: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 150ms ease;
+}
+
+.sign-up:hover{
+    background-color: rgb(246, 171, 183);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(215, 118, 134);
+}
+
+a:hover{
+    text-decoration: underline;
 }
